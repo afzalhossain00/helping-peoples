@@ -4,14 +4,26 @@ body {
 }
 
 section {
-    margin-bottom: 100px;
+    margin-bottom: 70px;
 }
 
 h1 {
     font-size: 60px;
 }
 
-.hero-area {
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 25px;
+}
+
+.hero-area-section {
     background-image: url(images/donation13.jpg);
     background-repeat: no-repeat;
     background-position: center center;
@@ -22,23 +34,118 @@ h1 {
 }
 
 .help-people {
-
     text-align: center;
     color: white;
     padding: 90px 0;
 }
 
 .help-people p {
-    margin-top: -40px;
+    margin-top: -30px;
     padding-bottom: 20px;
     font-weight: 300;
 }
 
-.btn {
+.btn-style {
     text-decoration: none;
     background-color: #FF5959;
     color: white;
     padding: 15px 25px;
-    border-radius: 10px;
+    border-radius: 6px;
     font-weight: 500;
+}
+
+.donate-today {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.donate-today p {
+    color: #707070;
+}
+
+.flexable {
+    display: flex;
+    justify-content: center;
+}
+
+.donate-amount {
+    box-sizing: border-box;
+    padding: 25px 40px;
+    background-color: #FAFAFA;
+    margin-left: 1%;
+    border-radius: 5px;
+    color: #707070;
+}
+
+.donate-amount:hover {
+    border: 3px solid #FF5959;
+    background-color: #FFEEEE;
+}
+
+.other-amount {
+    text-align: center;
+    padding: 20px 0;
+}
+
+#amount {
+    border: none;
+    outline: none;
+    font-size: 18px;
+    color: #B3B3B3;
+}
+
+hr {
+    width: 62%;
+    text-align: center;
+    color: #DADADA;
+}
+
+.our-donate-plan {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.our-donate-plan p {
+    color: #707070;
+}
+
+.donate-plan {
+    width: 20%;
+    padding: 20px 30px;
+    border-radius: 5px;
+    justify-content: space-evenly;
+}
+
+#food {
+    background-color: #e0f8fb;
+    margin-right: 15px;
+}
+
+#shelter {
+    background-color: #f8e7e7;
+    margin-right: 15px;
+}
+
+#education {
+    background-color: #FFF4D6;
+}
+
+
+
+
+.footer-area {
+    background-color: black;
+    height: 160px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.orange-color {
+    color: #FF5959;
+
+}
+
+footer P {
+    color: white;
+    font-weight: 300;
 }
