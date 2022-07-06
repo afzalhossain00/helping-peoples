@@ -20,7 +20,7 @@ h3 {
 }
 
 h4 {
-    font-size: 25px;
+    font-size: 23px;
 }
 
 .hero-area-section {
@@ -66,20 +66,22 @@ h4 {
 .flexable {
     display: flex;
     justify-content: center;
+    padding-bottom: 40px;
 }
 
 .donate-amount {
-    box-sizing: border-box;
+
     padding: 25px 40px;
     background-color: #FAFAFA;
-    margin-left: 1%;
+    margin-left: 2%;
     border-radius: 5px;
     color: #707070;
+    border: 3px solid transparent;
 }
 
 .donate-amount:hover {
+    background-color: #ffe1e1;
     border: 3px solid #FF5959;
-    background-color: #FFEEEE;
 }
 
 .other-amount {
@@ -111,7 +113,7 @@ hr {
 
 .donate-plan {
     width: 20%;
-    padding: 20px 30px;
+    padding: 50px 30px;
     border-radius: 5px;
     justify-content: space-evenly;
 }
